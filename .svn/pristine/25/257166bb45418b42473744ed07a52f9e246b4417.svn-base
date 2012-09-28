@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 fd39c58142f11fe86628318b2697d8c074a8e4b9 Jenhan <jenhantao@gmail.com> 1291606366 -0800	commit (initial): first commit
+fd39c58142f11fe86628318b2697d8c074a8e4b9 c7667f816b5b7b22259d71492b000eee01699e3c Jenhan <jenhantao@gmail.com> 1291838408 -0800	commit: reformatted generate annealing string such that a for loop is utilized instead of iterator objects
+c7667f816b5b7b22259d71492b000eee01699e3c 56f4926999ef5918e792e5c43fb59887a981a4cc Jenhan <jenhantao@gmail.com> 1294423048 -0800	commit: modified substitution matrix and altered penalty for gap extension
+56f4926999ef5918e792e5c43fb59887a981a4cc af38fb6c090493d5b88486a710a07e07e9e05b8e jenhan <jenhan@jenhan-M-6888u.(none)> 1311040886 -0400	commit (merge): added source

@@ -1,0 +1,31 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package annealer;
+
+import org.biojavax.SimpleNamespace;
+import org.biojava.bio.symbol.SymbolList;
+import org.biojava.bio.seq.*;
+import org.biojavax.bio.seq.SimpleRichSequence;
+
+/**
+ *
+ * @author Henry
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     * input is two nucleotide sequences comprising of alphabet {a,g,c,t}
+     * returns an alignment string
+     */
+    public static void main(String[] args) {
+        try {
+            String result = Annealer.align(args[0], args[1]);
+            System.out.println(result);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
